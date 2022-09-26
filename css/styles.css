@@ -1,0 +1,20 @@
+
+
+body {
+
+    background-color: gold;
+}
+@media (min-width: 500px) {
+
+    body{
+        background-color: red;
+    }
+}
+
+@media(min-width: 700px) {
+
+    body {
+
+        background-color: greenyellow;
+    }
+}
