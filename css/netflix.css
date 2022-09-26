@@ -19,87 +19,28 @@ body {
     width: 100vw;
     background-color: lightblue;
     display: flex;
-    flex-direction: column;
+    flex-direction: column ;
     justify-content: center;
     align-items: center;
     
 }
 
-
 .highcontainer {
 
-margin: 0;
-padding: 0;
-height: 10em;
+height: 33.3vh;
 width: 100vw;
-background-color: crimson;
-margin-top: -7em;
+background-color: antiquewhite;
+padding: 0%;
+margin: 0%;
 display: flex;
-flex-direction: row;
 justify-content: center;
-align-items: center;
+flex-direction: row-reverse;
+justify-content: space-between;
 
 }
-
-.righticons {
-
-    height: 5em;
-    width: 15em;
-    background-color: aquamarine;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: -4em;
-    margin-right: -95em;
-    
-}
-
-.triangulocuenta {
-
-    height: 2em;
-    width: 2em;
-    background-color: lightgreen;
-    /* margin-right: -3em; */
-    
-}
-
-.usuario {
-
-    height: 2em;
-    width: 2em;
-    background-color:lightgoldenrodyellow;
-    /* margin-right: -3em; */
-}
-
-.campana {
-
-    height: 2em;
-    width: 2em;
-    background-color:lightgray;
-    /* margin-right: 3em; */
-
-}
-
-.regalo {
-
-    height: 2em;
-    width: 2em;
-    background-color:lightsalmon;
-    /* margin-left: -7em; */
-
-}
-
-.lupa {
-
-    height: 2em;
-    width: 2em;
-    background-color:lightpink;
-    /* margin-left: -6em ;*/
-} 
 
 .lefticons {
-
+    
     height: 7em;
     width: 50em;
     background-color: aquamarine;
@@ -107,103 +48,124 @@ align-items: center;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: -4em;
-    margin-right: -33em;
-
+    /* margin-top: -10em;
+    /* margin-right: -33em; */
+    /* margin-left: -30em;  */
 }
 
-.logo {
-    height: 4em;
-    width: 5em;
-    background-color: royalblue;
+.righticons {
+    
+    height: 5em;
+    width: 15em;
+    background-color: aquamarine;
     display: flex;
-    flex-direction: center;
+    flex-direction: row;
+    justify-content: flex-end;
     align-items: center;
-    flex-direction: column;
-
-
+    /* margin-top: 4em;
+    margin-right: -95em;
+    margin-left: -15em; */   
 }
 
-.inicio {
-
-    height: 4em;
-    width: 5em;
-    background-color: royalblue;
-    display: flex;
-    flex-direction: center;
-    align-items: center;
-    flex-direction: column;
-
-
-
-} 
-
-.seriestv {
-
-    height: 4em;
-    width: 5em;
-    background-color: royalblue;
-    display: flex;
-    flex-direction: center;
-    align-items: center;
-    flex-direction: column;
-
-
-}
-
-.peliculas {
-
-    height: 4em;
-    width: 5em;
-    background-color: royalblue;
-    display: flex;
-    flex-direction: center;
-    align-items: center;
-    flex-direction: column;
-
-
-
-}
-
-.novedadesmas {
-
-    height: 4em;
-    width: 5em;
-    background-color: royalblue;
-    display: flex;
-    flex-direction: center;
-    align-items: center;
-    flex-direction: column;
-
-
-
-}
-
-.milista {
-
-    height: 4em;
-    width: 5em;
-    background-color: royalblue;
-    display: flex;
-    flex-direction: center;
-    align-items: center;
-    flex-direction: column;
-
-
-}
 
 .midcontainer {
 
-    height: 45em;
-    width: 100em;
-    background-color: cornflowerblue;
+height: 33.3vh;
+width: 100vw;
+background-color: lightgreen;
+flex-direction: row;
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: space-around;
+}
+
+.midfilm1 {
+
+height: 30vh;
+width: 18vw;
+background-color: lightpink;
+       
+}
+
+.midfilm2 {
+    height: 30vh;
+    width: 18vw;
+    background-color: lightcoral;
 
 }
 
+.midfilm3 {
+
+    height: 30vh;
+    width: 18vw;
+    background-color: lightgoldenrodyellow
+}
+
+.midfilm4 {
+
+    height: 30vh;
+    width: 18vw;
+    background-color: lightseagreen
+
+}
+
+.midfilm5 {
+
+    height: 30vh;
+    width: 18vw;
+    background-color: lightskyblue
+}
 .lowcontainer {
 
-    height: 45em;
-    width: 100em;
-    background-color:goldenrod
+    height: 33.3vh;
+    width: 100vw;
+    background-color: lightgray;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.lowfilm1{
+
+    height: 30vh;
+    width: 18vw;
+    background-color: darkorchid;
+
+
+}
+
+.lowfilm2 {
+
+    height: 30vh;
+    width: 18vw;
+    background-color: lightpink;
+
+}
+
+.lowfilm3 {
+
+    height: 30vh;
+    width: 18vw;
+    background-color: crimson;
+
+}
+
+.lowfilm4 { 
+
+    height: 30vh;
+    width: 18vw;
+    background-color: lemonchiffon;
+
+}
+
+.lowfilm5 {
+
+    height: 30vh;
+    width: 18vw;
+    background-color: violet;
 
 }

@@ -1,0 +1,167 @@
+.highcontainer {
+
+    margin: 0;
+    padding: 0;
+    height: 20vh;
+    width: 100vw;
+    background-color: crimson;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    
+    .righticons {
+    
+        height: 5em;
+        width: 15em;
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 4em;
+        margin-right: -95em;
+        margin-left: -15em;
+        
+    }
+    
+    .triangulocuenta {
+    
+        height: 2em;
+        width: 2em;
+        background-color: lightgreen;
+        /* margin-right: -3em; */
+        
+    }
+    
+    .usuario {
+    
+        height: 2em;
+        width: 2em;
+        background-color:lightgoldenrodyellow;
+        /* margin-right: -3em; */
+    }
+    
+    .campana {
+    
+        height: 2em;
+        width: 2em;
+        background-color:lightgray;
+        /* margin-right: 3em; */
+    
+    }
+    
+    .regalo {
+    
+        height: 2em;
+        width: 2em;
+        background-color:lightsalmon;
+        /* margin-left: -7em; */
+    
+    }
+    
+    .lupa {
+    
+        height: 2em;
+        width: 2em;
+        background-color:lightpink;
+        /* margin-left: -6em ;*/
+    } 
+    
+    .lefticons {
+    
+        height: 7em;
+        width: 50em;
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: -10em;
+        /* margin-right: -33em; */
+        margin-left: -30em;
+    
+    }
+    
+    .logo {
+        height: 4em;
+        width: 5em;
+        background-color: royalblue;
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+        flex-direction: column;
+    
+    
+    }
+    
+    .inicio {
+    
+        height: 4em;
+        width: 5em;
+        background-color: royalblue;
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+        flex-direction: column;
+    
+    
+    
+    } 
+    
+    .seriestv {
+    
+        height: 4em;
+        width: 5em;
+        background-color: royalblue;
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+        flex-direction: column;
+    
+    
+    }
+    
+    .peliculas {
+    
+        height: 4em;
+        width: 5em;
+        background-color: royalblue;
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+        flex-direction: column;
+    
+    
+    
+    }
+    
+    .novedadesmas {
+    
+        height: 4em;
+        width: 5em;
+        background-color: royalblue;
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+        flex-direction: column;
+    
+    
+    
+    }
+    
+    .milista {
+    
+        height: 4em;
+        width: 5em;
+        background-color: royalblue;
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+        flex-direction: column;
+    
+    
+    }
+    
